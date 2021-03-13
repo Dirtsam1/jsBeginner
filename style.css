@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+/* font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif; */
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  margin: 30px 0;
+}
+h5 {
+  font: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+}
+code {
+  color: rgb(68, 68, 68);
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #444;
+  margin: 20px 0;
+  letter-spacing: 0.3px;
+}
+
+ul li {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #444;
+  line-height: 1.5;
+  margin: 15px 50px;
+}
+.hero {
+  padding: 30px;
+  margin-left: 300px;
+}
+
+#navbar {
+  height: 100vh;
+  width: 280px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+#navbar h1 {
+  text-align: center;
+  font-size: 33px;
+  overflow-y: hidden;
+  margin: 0;
+}
+#navbar section {
+  overflow-y: scroll;
+  height: 80%;
+}
+#navbar section .nav-link {
+  text-decoration: none;
+  display: block;
+  color: #444;
+  font-size: 18px;
+  line-height: 1.7;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  outline: none;
+  border: 1px solid #111;
+}
+
+#navbar section a {
+  text-decoration: none;
+  display: block;
+  color: #444;
+  font-size: 18px;
+  line-height: 1.7;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  outline: none;
+  border: 1px solid #111;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    height: 250px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    /* padding-top: 20px; */
+  }
+  #navbar h1 {
+    margin: 0;
+    padding: 0;
+  }
+  .hero {
+    margin-left: 0;
+    margin-top: 250px;
+  }
+}
